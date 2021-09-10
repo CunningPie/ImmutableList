@@ -3,3 +3,6 @@
 ################################################################################
 
 /obj/Debug
+/bin/Debug
+/.vs/ConstantList/v15/Server/sqlite3
+/.vs/ConstantList/v15

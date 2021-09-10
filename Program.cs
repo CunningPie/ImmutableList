@@ -121,6 +121,7 @@ namespace ImmutableList
                     Console.Write(t.Value + " ");
                     t = t.Next;
                 }
+                Console.Write("\n");
             }
             catch
             {
@@ -152,10 +153,10 @@ namespace ImmutableList
 
             IL.DisplayList();
 
-            Console.WriteLine("Value: " + IL.GetValue(2) + "\n");
-            Console.WriteLine("Value: " + IL.GetValue(4) + "\n");
-            Console.WriteLine("Value: " + IL.GetValue(-1) + "\n");
-            Console.WriteLine("Value: " + IL.GetValue(3) + "\n");
+            Console.WriteLine("Value: " + IL.GetValue(2));
+            Console.WriteLine("Value: " + IL.GetValue(4));
+            Console.WriteLine("Value: " + IL.GetValue(-1));
+            Console.WriteLine("Value: " + IL.GetValue(3));
 
             Console.ReadKey();
         }
